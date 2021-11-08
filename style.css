@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    margin-top: 300px;
+    font-size: 30px;
+    border: 1px solid black;
+    padding-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 20px;
+    color: royalblue;
+    transition: 0.6s;
+}
+.center:hover{
+    background-color: hotpink;
+    transition: .6s;
+}
+button{
+    padding:15px ;
+    border-radius: 5px ;
+    border: 1px dotted red;
+    transition: .5s;
+    margin: 10px;
+    background-color: grey;
+}
+button  a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+
+button:hover{
+    background-color: blue;
+    transition: .6s;
+}
+
